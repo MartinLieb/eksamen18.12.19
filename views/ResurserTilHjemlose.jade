@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    h1= "Resurser til Hjemløse"
+    div.container
+        table.table.table-striped
+            thead
+                th= "Id"
+                th= "By"
+                th= "Kategori Navn"
+                th= "Beskrivelse"
+                th= "Adresse"
+                th= "Telefon"
+                th= "Aabningstider"
+                th= "Webside"
+                th= "Created At"
+                th= "Updated At"
+            tbody
+                each resurser in resursers
+                    tr
+                        td= resurser.id
+                        td= resurser.by
+                        td= resurser.kategori_navn
+                        td= resurser.beskrivelse
+                        td= resurser.adresse
+                        td= resurser.telefon
+                        td= resurser.aabningstider
+                        td= resurser.webside
+                        td= resurser.createdAt
+                        td= resurser.updatedAt
