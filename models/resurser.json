@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "by": "Olinhaven",
+        "kategori_navn": "Interactions",
+        "beskrivelse": "laboriosam",
+        "adresse": "76472 Janessa Ramp",
+        "telefon": 29012,
+        "aabningstider": "tirsdag",
+        "webside": "kimberly.info",
+        "createdAt": "2019-12-18T09:54:15.000Z",
+        "updatedAt": "2019-12-18T12:20:56.000Z"
+    },
+    {
+        "id": 2,
+        "by": "Lake Jaydahaven",
+        "kategori_navn": "Quality",
+        "beskrivelse": "hic",
+        "adresse": "04436 Marlin Lake",
+        "telefon": 59463,
+        "aabningstider": "nesciunt",
+        "webside": "roberto.com",
+        "createdAt": "2019-12-18T09:54:15.000Z",
+        "updatedAt": "2019-12-18T09:54:15.000Z"
+    },
+    {
+        "id": 3,
+        "by": "Port Ryannview",
+        "kategori_navn": "Operations",
+        "beskrivelse": "quia",
+        "adresse": "23534 Lang Prairie",
+        "telefon": 89576,
+        "aabningstider": "ab",
+        "webside": "rosa.biz",
+        "createdAt": "2019-12-18T09:54:16.000Z",
+        "updatedAt": "2019-12-18T09:54:16.000Z"
+    }
+]

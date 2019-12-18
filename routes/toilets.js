@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 var toilets = require('../modules/toilets');
 
-router.get('/', function(req, res, next) {
-    res.render('toilets', {
-    })
-  });
+router.get('/', async function(req, res, next) {
+    var result = await toilets.loadAll();
+  res.json(result);
+});
   
   module.exports = router;

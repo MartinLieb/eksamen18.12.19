@@ -10,6 +10,7 @@ var createResurseRouter = require('./routes/createResurse');
 var resurserTilHjemloseRouter = require('./routes/db');
 var APIRouter = require('./routes/API');
 var dbjsonRouter = require('./routes/dbjson');
+var toiletsRouter = require('./routes/toilets');
 
 
 
@@ -31,6 +32,7 @@ app.use('/createResurse', createResurseRouter);
 app.use('/ResurserTilHjemlose', resurserTilHjemloseRouter);
 app.use('/API', APIRouter);
 app.use('/dbjson', dbjsonRouter);
+app.use('/toilets', toiletsRouter);
 
 
 
