@@ -2,9 +2,10 @@ var express = require('express');
 var router = express.Router();
 var toilets = require('../modules/toilets');
 
-router.get('/', async function(req, res, next) {
-    var result = await toilets.loadAll();
-  res.json(result);
-});
+router.get('/:toilets', function(req, res, next) {
+    res.render('toilets', {
+        value: toilets.toiletsTimes1(req.params.toilets)
+    })
+  });
   
   module.exports = router;
