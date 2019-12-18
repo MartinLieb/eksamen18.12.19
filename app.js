@@ -33,7 +33,8 @@ app.use('/ResurserTilHjemlose', resurserTilHjemloseRouter);
 app.use('/API', APIRouter);
 app.use('/dbjson', dbjsonRouter);
 app.use('/toilets', toiletsRouter);
-
+app.use(express.static('public'))
+app.use(express.static('views'))
 
 
 
